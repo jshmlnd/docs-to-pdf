@@ -1,0 +1,5 @@
+node_modules
+
+# Generated PDFs and personal test documents
+test-docs/out/
+test-docs/np1/

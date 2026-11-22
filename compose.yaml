@@ -1,0 +1,9 @@
+# Local run: docker compose up -d --build, then open http://localhost:3100
+services:
+  word2pdf:
+    build: .
+    image: word2pdf
+    container_name: word2pdf
+    ports:
+      - "127.0.0.1:3100:3000"
+    restart: unless-stopped

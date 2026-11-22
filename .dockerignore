@@ -1,0 +1,6 @@
+*
+!server.js
+!word-compat.js
+!web
+web/node_modules
+web/dist
